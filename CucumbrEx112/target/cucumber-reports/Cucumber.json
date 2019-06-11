@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Check login functionality of Expense tracker website - 1- Register New User Page.",
+        "description": "",
+        "id": "site;check-login-functionality-of-expense-tracker-website---1--register-new-user-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3849303936,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "- US - 007 - login credentials creation",
+            "match": {
+              "location": "JBKSteps.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3835002528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "- I open the expense tracker app \u0026 the login page appears,which also has new user register link",
+            "match": {
+              "location": "JBKSteps.i_open_a_website_and_login_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179517552,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "- Clicking on the register link brings us to Register New User Page",
+            "match": {
+              "location": "JBKSteps.check_login_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Site",
+    "description": "Step 1 - US - 007 - login credentials creation - As a user I want to open the expense tracker app\r\nso that i can configure the app by going to \"New User Register Page\"",
+    "id": "site",
+    "keyword": "Feature",
+    "uri": "TC01_Feature.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Check login functionality of Expense tracker website - 2- Register New User Page.",
+        "description": "",
+        "id": "site;check-login-functionality-of-expense-tracker-website---2--register-new-user-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3042517004,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "- US - 007 - login credentials creation-2",
+            "match": {
+              "location": "JBKSteps2.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3480476282,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "- I open the expense tracker app - the login page appears first",
+            "match": {
+              "location": "JBKSteps2.i_open_a_website_and_login_page_appears()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385026468,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "- The First Page title that is displayed to the user is LOGIN",
+            "match": {
+              "location": "JBKSteps2.check_login_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Site",
+    "description": "Step 2 - US - 007 - login credentials creation - As a user I want to open the expense tracker app\r\nso that i can login to the app by going to \"Login Page\"",
+    "id": "site",
+    "keyword": "Feature",
+    "uri": "TC01_Feature2.feature"
+  }
+]

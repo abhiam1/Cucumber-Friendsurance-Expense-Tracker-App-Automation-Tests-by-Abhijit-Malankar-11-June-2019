@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.771844">
+<testcase classname="Site" name="Check login functionality of Expense tracker website - 1- Register New User Page." time="7.863824">
+<system-out><![CDATA[Given - US - 007 - login credentials creation...............................passed
+When - I open the expense tracker app & the login page appears,which also has new user register link.passed
+Then - Clicking on the register link brings us to Register New User Page....passed
+]]></system-out>
+</testcase>
+<testcase classname="Site" name="Check login functionality of Expense tracker website - 2- Register New User Page." time="6.90802">
+<system-out><![CDATA[Given - US - 007 - login credentials creation-2.............................passed
+When - I open the expense tracker app - the login page appears first........passed
+Then - The First Page title that is displayed to the user is LOGIN..........passed
+]]></system-out>
+</testcase>
+</testsuite>
